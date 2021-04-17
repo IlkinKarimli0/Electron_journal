@@ -1,0 +1,274 @@
+body{
+    margin: 0vw;
+    background-image: url("ocean.jpg");
+    color: blanchedalmond;
+}
+
+.studentpicture{
+    position: absolute;
+    width: 3vw;
+    border-radius: 50%;
+    top: 3.5vw;
+    right: 1.3vw;
+}
+
+
+.studentname{
+    font-size: 1vw;
+    grid: 0px;
+    position: absolute;
+    border-radius: 50%;
+    top: 2.5vw;
+    right: 6vw;
+}
+
+.studentgroup{
+    position: absolute;
+    top: 15vw;
+    font-size: 1.4vw;
+}
+
+.welcome{
+    font-style: italic;
+    position: absolute;
+    top: 0vw;
+    left:4.5vw;
+    font-size: 3vw;    
+}
+
+.subjects{
+    position: absolute;
+    font-size: 1.8vw;
+    top:13vw;
+    left: 6vw;
+    
+}
+
+.courses{
+    position: absolute;
+    font-size: 1.8vw;
+    top:12vw;
+    left: 25vw;
+    border-left: 5vw;
+    
+}
+
+.feedback{
+    position: absolute;
+    font-size: 1.8vw;
+    top:12vw;
+    left: 50vw;
+    
+    
+}
+.about{
+    position: absolute;
+    font-size: 1.8vw;
+    top:12vw;
+    left: 80vw;
+   
+}
+.home{
+    position: absolute;
+    font-size: 1.8vw;
+    top:12vw;
+    left: 8.5vw
+}
+/*Ufaz passport place*/
+
+
+.Ufaz_passport{
+    font-size: 2vw;
+    position: absolute;
+    top: 15vw;
+    left: 5vw;
+}
+.text_area{
+    position: absolute;
+    height: 15vw;
+    width: 0vw;
+    top: 25vw;
+    left: 33vw;
+    resize: none;
+}
+
+.Name{
+    position: absolute;
+    top: 24vw;
+    left: 11vw;
+}
+
+.Surname{
+    position: absolute;
+    top: 29vw;
+    left: 10vw;
+}
+
+.Group{
+    position: absolute;
+    top: 34vw;
+    left: 9vw;
+}
+.SEND_ACCP{
+    position: absolute;
+    top: 37vw;
+    left: 55vw;
+}
+
+.SEND_ACCP {
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.SEND_ACCP span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.SEND_ACCP span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.SEND_ACCP:hover span {
+    padding-right: 25px;
+  }
+  
+.SEND_ACCP:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.SEND_NOTES{
+    position: absolute;
+    top: 37vw;
+    left: 87vw;
+}
+
+.SEND_NOTES {
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.SEND_NOTES span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.SEND_NOTES span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.SEND_NOTES:hover span {
+    padding-right: 25px;
+  }
+  
+.SEND_NOTES:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.reminder{
+    position: absolute;
+    height: 15vw;
+    width: 0vw;
+    top: 25vw;
+    left: 65vw;
+    resize: none;
+}
+
+
+.verticalLine {
+    font-size: 1.2vw;
+    border-left: solid blanchedalmond;
+    height: 4.15vw;
+    position: absolute;
+    left:40vw;
+    top: 12.64vw;
+  }
+.verticalLine2 {
+    font-size: 1.2vw;
+    border-left: solid blanchedalmond;
+    height: 4.15vw;
+    position: absolute;
+    left:68vw;
+    top: 12.64vw;
+  }
+.verticalLine3 {
+    font-size: 1.2vw;
+    border-left: solid blanchedalmond;
+    height: 4.15vw;
+    position: absolute;
+    left:17vw;
+    top: 12.64vw;
+  }
+
+/*Links Animations | HOME  |  COURSE | FEEDBACK | ABOUT |*/ 
+
+.home{
+    text-decoration:none;    
+    border-bottom: 1px blanchedalmond;
+        
+}
+.about{
+    text-decoration:none;    
+    border-bottom: 1px solid transparent;
+    transition:border-bottom 0.5s;
+}
+.feedback{
+    text-decoration:none;    
+    border-bottom: 1px solid transparent;
+    transition:border-bottom 0.5s;
+}
+.courses{
+    text-decoration:none;    
+    border-bottom: 1px solid transparent;
+    transition:border-bottom 0.5s;
+}
+.about :hover{
+    border-color: solid black;
+    color:black;
+}
+  
+.feedback :hover{
+    border-color: solid black;
+    color:black;
+}
+.courses :hover{
+    border-color: solid black;
+    color:black;
+}
+  
+

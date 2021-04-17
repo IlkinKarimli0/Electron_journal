@@ -1,0 +1,122 @@
+body{
+    margin: 0vw;
+    background-image: url("ocean.jpg");
+    color: blanchedalmond;
+}
+
+.studentpicture{
+    position: absolute;
+    width: 3vw;
+    border-radius: 50%;
+    top: 3.5vw;
+    right: 1.3vw;
+}
+
+
+.studentname{
+    font-size: 1vw;
+    grid: 0px;
+    position: absolute;
+    border-radius: 50%;
+    top: 2.5vw;
+    right: 6vw;
+}
+
+.studentgroup{
+    position: absolute;
+    top: 15vw;
+    font-size: 1.4vw;
+}
+
+.welcome{
+    font-style: italic;
+    position: absolute;
+    top: 0vw;
+    left:4.5vw;
+    font-size: 3vw;    
+}
+
+.courses{
+    position: absolute;
+    font-size: 1.8vw;
+    top:12vw;
+    left: 25vw;
+    border-left: 5vw;
+    
+}
+
+.feedback{
+    position: absolute;
+    font-size: 1.8vw;
+    top:12vw;
+    left: 50vw;
+    
+    
+}
+.about{
+    position: absolute;
+    font-size: 1.8vw;
+    top:12vw;
+    left: 80vw;
+   
+}
+.home{
+    position: absolute;
+    font-size: 1.8vw;
+    top:13.64vw;
+    left: 8.5vw
+}
+.verticalLine {
+    font-size: 1.2vw;
+    border-left: solid blanchedalmond;
+    height: 4.15vw;
+    position: absolute;
+    left:40vw;
+    top: 12.64vw;
+  }
+.verticalLine2 {
+    font-size: 1.2vw;
+    border-left: solid blanchedalmond;
+    height: 4.15vw;
+    position: absolute;
+    left:68vw;
+    top: 12.64vw;
+  }
+.verticalLine3 {
+    font-size: 1.2vw;
+    border-left: solid blanchedalmond;
+    height: 4.15vw;
+    position: absolute;
+    left:17vw;
+    top: 12.64vw;
+  }
+
+.feedbackbox{
+      position: absolute;
+      top:20vw;
+      right: 20vw;
+    }
+
+.subject{
+    font-size: 3vw;
+}
+
+.date{
+    font-size: 3vw;
+}
+.problem{
+    font-size: 3vw;
+}
+.anon{
+    font-size: 1vw;
+}
+input[type=checkbox]{
+    transform: scale(1.7);
+    position: absolute;
+    top: 15.5vw;
+    left:10vw;
+}
+.button{
+    font-size: 3vw;
+    width: 10vw;
+}

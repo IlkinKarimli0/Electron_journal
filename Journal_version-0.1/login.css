@@ -1,0 +1,201 @@
+@font-face{
+    font-family: jetbrains;
+    src: url("JetBrainsMono-ExtraBold.woff2");
+}
+
+body{
+    background-image: url(ufaz\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body{
+    margin: 0px;
+    
+}
+
+.Ufaz_personal_room{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -260px;
+    color: #2B394A;
+    transition: color 1 ;
+
+}
+
+.Ufaz_personal_room :hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    color: black;
+}
+
+.Ufaz_personal_room > div{
+    font-family: jetbrains;
+    display: flex;
+    margin-right: 310px;
+}
+.Wrapper_Texts{
+    width: 570px;
+    padding: 0px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Wrapper_Texts {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s ;
+    
+}
+
+.Wrapper_Texts {
+    height: 50px;
+    font-weight: 100px;
+    transition: color 0.5;
+}
+
+.container{
+    width: 500px;
+    height: 789px;
+    border-radius:15px;
+    margin: auto;
+    margin-top: 120px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 80px;
+    color: #2B394A;
+    font-size: 40px;
+}
+
+.header :hover{
+    color: rgb(0,0,0,0.5);
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+.Middle input,button{
+    width: 400px;
+    height: 33px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2B394A;
+    
+}
+.Middle button{
+    padding-left: 0;
+    background-color: 2B394A;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.Middle button:hover,input:hover{
+    box-shadow: 2px 2px 4px #2B394A ;
+    background-color: #cccaca ;
+}
+
+.Middle{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Middle span{
+    position: relative;
+}
+
+.Middle i {
+    position: absolute;
+    left: 5px;
+    top: 1px;
+}
+
+.ufaz_logo{
+    text-align: center;
+    margin-top: 2vw;
+    
+}
+
+.ufaz_logo :hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/7aea763505.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="Wrapper_Texts">
+        <div class="Ufaz_personal_room">
+            <div class="Ufaz">
+                <h1>UFAZ</h1>
+            </div>
+            <div class="Personal">
+                <h1>PERSONAL</h1>
+            </div>
+            <div class="Room">
+                <h1>ROOM</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>LOGIN</h1>
+        </div>
+        <div class="Middle">
+            <form method="post" action="login.php">
+            <?php include('errors.php'); ?>
+                <span>
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="UFAZ mail"  name="username" required>
+                </span><br>
+                <span>
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Password"  name="password" required>
+                </span><br>
+    
+                    <button href="mainpage.html">LOGIN</button>
+            </form>
+        </div>
+        <div class="ufaz_logo">
+            <a class="ufazpic" href="https://www.ufaz.az" h><img src="ufazlogo.png" alt="UFAZ official page" height="120px" width="178px"></a>
+        </div>
+    </div>
+</body>
+</html>
